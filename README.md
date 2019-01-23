@@ -8,9 +8,9 @@ but also get info when and where we could saw before specified address.
 ## Usage
 Please check `example.py` source for newest avaliable features, or you can run `runtest.sh` to check all features by one click.
 ```
-./examples -f <macaddress>
+./examples.py -f <macaddress>
 
-$ ./macfinder.py b8:ca:3a:c5:ef:a4
+$ ./examples.py b8:ca:3a:c5:ef:a4
 [+] FOUND: {'oui': 'B8:CA:3A', 'countryCode': 'US', 'companyName': 'Dell Inc', 'companyAddress': 'One Dell Way Round Rock  TX  78682 US', 'dateCreated': '2013-01-09', 'assignmentBlockSize': 'MA-L', 'isPrivate': '0', 'dateUpdated': '2015-10-25'}
 [+] DONE
 ```
